@@ -1,0 +1,108 @@
+html {
+    background-color : #f6f6f6;
+    word-wrap: break-word;
+    }
+body,p {
+    color:black;
+
+    margin: 0;
+    margin-bottom: 8px;
+    
+}
+/*cadrer*/
+.cadrer-text{
+    padding: 2% 2%;
+}
+.cadrer-titre{
+    padding: 0.5% 2%;
+}
+/*encadrer*/
+.encadre {
+    border: 2px solid rgb(24, 21, 21);
+}
+.rond {
+    border-radius: 30px;
+}
+.blanc{
+    background :rgb(255, 255, 255);
+}
+.space{
+    margin-bottom: 1%;
+}
+.ombre{
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.15);
+}
+/*postion du text*/
+.text-centrer{        
+    text-align: center;
+}
+.text-gauche{        
+    text-align: left;
+}
+/*police*/
+.titre{
+    font-size: 3em;
+}
+.description{
+    font-size: 1em;  
+}
+.gras {
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+/**/
+.contenu-gauche{
+    margin-left: 5%;
+    margin-right: 30%;
+    
+}
+.contenu-centre{
+    margin-left: 20% ;
+    margin-right: 20% ;
+}
+.contenu-droite{
+    float: right;
+    margin-right: 5%;
+}
+
+
+/*float*/
+.accoler-rien{
+    float: none;
+}
+.accoler-droite{
+    float: right;
+}
+.accoler-gauche{
+    float: left;
+}
+
+
+/**/
+.doc-menu {
+    max-width:90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+.document{
+    float: left;
+    width: 66%;
+}
+.menu{
+    float:right;
+    width: 23%;
+}
+
+.fixer.fixed{
+    position:fixed;
+    top: 2%;
+    float: none;
+    width: 20.7%;
+    padding:1.8%;
+    right: 5%;
+}
+    
+
