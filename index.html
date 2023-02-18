@@ -28,19 +28,20 @@
     </div>
 <!--pour fixer la position a partir d'un certai scroll jusqu'à un certain scroll-->
     <script>
-        var Height = document.getElementById('banniereduhaut').clientHeight;
-var Width = document.getElementById('banniereduhaut').clientWidth;
-margin = Width/30
+            var Height = document.getElementById('banniereduhaut').clientHeight;
+    var Width = document.getElementById('banniereduhaut').clientWidth;
+    margin = Width/30
 
 
-window.addEventListener("scroll", function() {
-    console.log(Height+margin) 
-    if(this.scrollY > Height+margin && this.scrollY<1400 ) {
-        document.querySelector('div.fixer').classList.add('fixed');
-    } else {
-        document.querySelector('div.fixer').classList.remove('fixed');
-    }
-}, false);</script>
+    window.addEventListener("scroll", function() {
+        console.log(Height+margin) 
+        if(this.scrollY > Height+margin && this.scrollY<1400 ) {
+            document.querySelector('div.fixer').classList.add('fixed');
+        } else {
+            document.querySelector('div.fixer').classList.remove('fixed');
+        }
+    }, false);
+    </script>
 
 </div>
 </body>
