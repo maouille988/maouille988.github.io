@@ -1,7 +1,7 @@
 //affectation des variables pour savoir le modèle de boite du titre 
 function fixer(){
-    var Height = document.getElementById('banniereduhaut').clientHeight;
-    var Width = document.getElementById('banniereduhaut').clientWidth;
+    var Height = document.querySelector('banniereduhaut').clientHeight;
+    var Width = document.querySelector('banniereduhaut').clientWidth;
     margin = Width/30
 
     window.addEventListener("scroll", function() {
