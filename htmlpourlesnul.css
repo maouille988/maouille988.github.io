@@ -98,7 +98,7 @@ body,p {
 
 .fixer.fixed{
     position:fixed;
-    top: 0%;
+    top: 10px;
     float: none;
     width: 20.7%;
     padding:1.8%;
