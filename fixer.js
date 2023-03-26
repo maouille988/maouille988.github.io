@@ -4,6 +4,9 @@ function fixer(){
     margin = Width/30
 
     window.addEventListener("scroll", function() {
+        var Height = document.getElementById('banniereduhaut').clientHeight;
+        var Width = document.getElementById('banniereduhaut').clientWidth;
+        margin = Width/30
         console.log(Height+margin) 
         if(this.scrollY > Height+margin-10 ) {
             document.querySelector('div.fixer').classList.add('fixed');
