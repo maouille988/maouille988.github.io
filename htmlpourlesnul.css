@@ -86,6 +86,7 @@ body,p {
     max-width:90%;
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: 5%;
     }
 .document{
     float: left;
@@ -104,5 +105,20 @@ body,p {
     padding:1.8%;
     right: 5%;
 }
-    
 
+.réseaux{
+    float: left;
+    width: 85%;
+    margin-left: 5%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+}
+
+.colonne{
+    float: left;
+    margin-left: 20%;
+}
+.image-sociale{
+    width: 50px;
+}
