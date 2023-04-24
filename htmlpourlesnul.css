@@ -117,8 +117,17 @@ body,p {
 
 .colonne{
     float: left;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 .image-sociale{
     width: 50px;
+}
+
+.lien{
+    color: rgba(0, 60, 255, 0.719);
+    text-decoration: none;
+}
+.lien:hover{
+    color: rgb(255, 0, 0);
+    
 }

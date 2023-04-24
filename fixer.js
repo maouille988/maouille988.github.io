@@ -1,16 +1,22 @@
 function fixer(){
-    var Height = document.getElementById('banniereduhaut').clientHeight;
-    var Width = document.getElementById('banniereduhaut').clientWidth;
-    margin = Width/30
-
+    
     window.addEventListener("scroll", function() {
         var Height = document.getElementById('banniereduhaut').clientHeight;
         var Width = document.getElementById('banniereduhaut').clientWidth;
-        margin = Width/30
-        console.log(Height+margin) 
-        if(this.scrollY > Height+margin-10 ) {
+        var Heightdoc = document.getElementById('document').clientHeight;
+        var Heightmenu = document.getElementById('menu').clientHeight;
+        var deuxpourcent = Width/30
+        var maxmenu = Height+deuxpourcent+Heightdoc-Heightmenu-10
+        console.log(maxmenu)
+        console.log(this.scrollY)
+        if(this.scrollY > Height+deuxpourcent-10 && this.scrollY<maxmenu ) {
             document.querySelector('div.fixer').classList.add('fixed');
-        } else {
+        } 
+        else if(this.scrollY > maxmenu ) {  
+            console.log("fjufvg")
+            document.querySelector('div.fixer').classList.remove('fixed');
+        }
+        else {
             document.querySelector('div.fixer').classList.remove('fixed');
         }
     }, false);
