@@ -1,9 +1,10 @@
 html {
-    background-color : #f6f6f6;
+    background-image: url(https://www.cerin.org/wp-content/uploads/2021/04/importance-matrice-produits-laitiers-pour-determiner-effets-sante-1.jpg);
+    background-size:cover ;
     word-wrap: break-word;
     }
 body,p {
-    color:black;
+    color:rgb(255, 255, 255);
 
     margin: 0;
     margin-bottom: 8px;
@@ -23,8 +24,8 @@ body,p {
 .rond {
     border-radius: 30px;
 }
-.blanc{
-    background :rgb(255, 255, 255);
+.couleur_fond{
+    background :rgb(39, 35, 35);
 }
 .space{
     margin-bottom: 1%;
@@ -124,7 +125,7 @@ body,p {
 }
 
 .lien{
-    color: rgba(0, 60, 255, 0.719);
+    color: rgba(0, 207, 235, 0.726);
     text-decoration: none;
 }
 .lien:hover{
